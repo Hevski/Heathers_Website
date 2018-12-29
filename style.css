@@ -1,0 +1,111 @@
+body {
+  background: #141E30;
+}
+
+h1 {
+  font-family:helvetica;
+  color: #FFF;
+  text-align: center;
+
+}
+
+h3 {
+  font-family: sans-serif;
+  color: #FFF;
+  text-align: center;
+}
+
+p {
+  color: #FFF;
+  font-family: arial;
+  font-weight: bold;
+  text-align: left;
+}
+
+.follow {
+  text-align: center;
+}
+
+ul {
+  color: #FFF;
+  font-family: arial;
+  font-weight: bold;
+}
+
+h2 {
+  color: #FFF;
+  font-family: sans-serif;
+}
+
+a {
+  color: #e6f2ff;
+  font-family: arial;
+}
+
+img:not(.profile) {
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+  width: auto\9;
+  color: #fff;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #ccc;
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
+
+img.profile {
+  display: block;
+  margin: 1px auto;
+  width: 50%;
+  color: #fff;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+}
+
+
+img.profile:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.fb:hover {
+  opacity: 0.7;
+}
+
+.insta:hover {
+  opacity: 0.7;
+}
+
+.twit:hover {
+  opacity: 0.7;
+}
+
+.linkd:hover {
+  opacity: 0.7;
+}
+
+.gith:hover {
+  opacity: 0.7;
+}
+
+img.size {
+  height: 40px;
+  width: 40px;
+}
+
+.link:hover {
+  color: #33FF33
+}
